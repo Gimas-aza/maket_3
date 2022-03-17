@@ -1,0 +1,105 @@
+.main {
+    &__contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}
+.contact {
+    &__container {
+        width: 800px;
+    }
+
+    &__title {
+        margin-bottom: 36px;
+        line-height: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #362f2f;
+    }
+    &__label {
+        font-size: 1.17em;
+        line-height: 14px;
+        font-weight: 300;
+        padding-bottom: 5px;
+        margin-top: 30px;
+    }
+    &__list {
+        > li {
+            padding-left: 40px;
+            text-align: left;
+            position: relative;
+            margin-bottom: 13px;
+            i::before {
+                position: absolute;
+                left: 12px;
+            }
+            &:nth-child(1) > i::before {
+                padding-left: 2px;
+            }
+            &:nth-child(2) > i::before {
+                padding-left: 1px;
+            }
+        }
+    }
+
+    &__info-text {
+        margin-top: 68px;
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-size: 1em;
+        line-height: 14px;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+    }
+
+    &__logo {
+        display: block;
+        margin: 100px auto 70px;
+    }
+}
+.item {
+    width: 350px;
+    font-size: 0.75rem;
+    input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #362f2f;
+        outline: none;
+    }
+}
+.name {
+}
+.email {
+}
+.subject {
+}
+.message {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+.button {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 15px 85px;
+    background-color: #362f2f;
+    color: #fff;
+    border: none;
+    margin: 40px 0;
+}
+@media (max-width: 767px) {
+    .main__contact {
+        flex-direction: column;
+    }
+}
+@media (max-width: 370px) {
+    .item {
+        width: 290px;
+    }
+}

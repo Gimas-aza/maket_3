@@ -1,0 +1,255 @@
+.main__post {
+  color: #333333;
+}
+
+.main .post__container {
+  max-width: 780px;
+  padding: 0 15px;
+}
+
+.main .post__title {
+  font-size: 1.125rem;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.main .post__title_h1 {
+  padding: 17px 0 26px 13px;
+  font-size: 1.875rem;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.main .post__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+}
+
+.main .post__active > i {
+  margin: 0 7% 32px;
+}
+
+.main .post__active > i:first-child {
+  color: #333333;
+}
+
+.main .post__active > i::before {
+  padding-right: 13px;
+}
+
+.main .post__text > p {
+  margin: 0 20px 30px 11px;
+  font-size: 0.93em;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.main .post__text > p:last-child {
+  margin-bottom: 22px;
+}
+
+.main .post__text_small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.main .post__text_UPER {
+  text-transform: uppercase;
+}
+
+.main .post .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 0 70px 0 40px;
+}
+
+.main .post .share__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+.main .post .share__item > a {
+  margin-left: 40px;
+  padding-top: 3px;
+  color: #333333;
+}
+
+.main .post .share__text_bold {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.main .post__item2 {
+  margin-top: 70px;
+}
+
+.main .post__comments {
+  margin: 25px 0 0 10px;
+}
+
+.main .post__comment-user {
+  margin-bottom: 20px;
+}
+
+.main .post__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.main .post__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .post__comment-answer {
+  margin: 20px 0 0 30px;
+}
+
+.main .post__comment-answer .text-answer {
+  background-color: #f8f8f8;
+}
+
+.main .post__item3 {
+  margin: 70px 16px 0 11px;
+}
+
+.main .post__form-comment {
+  margin-left: 3px;
+  width: 100%;
+}
+
+.main .info__name {
+  float: left;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.main .info__date {
+  float: left;
+  margin-left: 30px;
+  font-size: 0.858em;
+  line-height: 20px;
+  font-weight: 400;
+  color: #7f8c8c;
+}
+
+.main .reply {
+  margin-right: 70px;
+}
+
+.main .reply::before {
+  margin-right: 11px;
+}
+
+.main .reply span {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.main .comment {
+  width: 65.97222%;
+  height: 187px;
+  padding: 13px 0 0 13px;
+  border: 1px solid #000000;
+  outline: none;
+  resize: none;
+  float: left;
+}
+
+.main .comment__img {
+  width: 70px;
+  height: 70px;
+}
+
+.main .comment__text {
+  background-color: #e6e6e6;
+  height: 70px;
+  padding: 10px 5% 0 20px;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #000;
+  overflow: auto;
+}
+
+.main .comment__text::-webkit-scrollbar {
+  width: 5px;
+}
+
+.main .form__date {
+  margin-bottom: 28px;
+}
+
+.main .input {
+  margin-top: 20px;
+  padding-left: 2.36111%;
+  width: 45.97222%;
+  height: 40px;
+  border: 1px solid #000000;
+  outline: none;
+}
+
+.main .input:nth-child(odd) {
+  margin-right: 6%;
+}
+
+.main .button {
+  padding: 11px 70px;
+  margin: 150px 0 0 36px;
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #333333;
+  border: none;
+}
+
+.main .bottom__list {
+  padding-left: 35px;
+  list-style: square outside;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #353535;
+}
+
+@media (max-width: 715px) {
+  .comment {
+    width: 100% !important;
+  }
+  .button {
+    margin: 28px 0 0 0 !important;
+  }
+}

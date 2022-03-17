@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Reset.css">
+    <link rel="stylesheet" href="./fonts/font-awesome-4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <script type="text/javascript" src="./JS/index-script.js"></script>
+    <title>SQUARE</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <menu class="header__menu">
+                    <div class="menu__burger">
+                        <i class="fa fa-times cross" aria-hidden="true"></i>
+                        <i class="fa fa-bars bar" aria-hidden="true"></i>
+                    </div>
+                    <ul class="menu__list">
+                        <li><a href="#" class="menu__item menu__item_active">portfolio</a>
+                            <ul class="menu__sub-list1 sub-list">
+                                <li><a href="#" class="menu__item1">Fashion</a></li>
+                                <li><a href="#" class="menu__item1">Editorial</a></li>
+                                <li><a href="#" class="menu__item1">street</a></li>
+                                <li><a href="#" class="menu__item1 menu__ss-list">black white</a>
+                                    <ul class="menu__sub-list2 sub-list">
+                                        <li><a href="./views/portfolio.html#_one" class="menu__item2">Gallery /1</a></li>
+                                        <li><a href="./views/portfolio.html#_two" class="menu__item2">Gallery /2</a></li>
+                                        <li><a href="./views/portfolio.html#_three" class="menu__item2">Gallery /3</a></li>
+                                        <li><a href="#" class="menu__item2">Gallery /4</a></li>
+                                        <li><a href="#" class="menu__item2">Gallery /5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="menu__item1">personal</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="menu__item">clients</a></li>
+                        <li><a href="./views/blog.html" class="menu__item">news</a></li>
+                        <li><a href="./views/about.html" class="menu__item">about me</a></li>
+                        <li><a href="./views/contact.html" class="menu__item">contact</a></li>
+                    </ul>
+                </menu>
+                <a href="#" class="header__logo">
+                    <img src="./IMG/logo.png" alt="Логотип">
+                </a>
+                <div class="header__contacts">
+                    <a href="#" class="cont-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="cont-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="cont-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="cont-link"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+                    <a href="#" class="cont-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#" class="cont-link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="portfolio__container">
+                <section class="main__portfolio">        
+                    <div class="main__info">
+                        <div class="info__content">
+                            <i class="fa fa-compress info__compress" id="info__button" aria-hidden="true"></i>
+                            <i class="fa fa-expand info__expand" id="info__button" aria-hidden="true"></i>
+                            <h2 class="info__title">morgan freeman</h2>
+                            <b class="info__sub-title">actor</b>
+                            <div class="info__text-nav">
+                                <p class="info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante venenatis eget.</p>
+                                <div class="info__nav">
+                                    <div class="info__arrow">
+                                        <i class="fa fa-angle-left item-arrow" aria-hidden="true"></i>
+                                        <i class="fa fa-angle-right item-arrow" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="info__page"><span>1</span> / 10</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info__items">
+                            <i class="fa fa-heart info__item" aria-hidden="true"></i>
+                            <i class="fa fa-share info__item" aria-hidden="true"></i>
+                            <i class="fa fa-envelope info__item" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="main__container">
+                <section class="main__bottom">
+                        <div class="bottom__item-1">
+                            <img class="bottom__img" src="./IMG/main__img/mask_photo_218.jpg" alt="fashion workshop img">
+                            <h2 class="bottom__title">fashion workshop</h2>
+                            <p class="bottom__sub-title">NOV 21-23</p>
+                            <p class="bottom__text-time">9:00am - 4:00pm</p>
+                            <button class="bottom__rsvp">rsvp</button>
+                        </div>
+                        <div class="bottom__item-2">
+                            <h2 class="bottom__title_bold">news</h2>
+                            <div class="bottom__content">
+                                <div class="bottom__item">
+                                    <img class="item__img" src="./IMG/main__img/thumb_287.jpg" alt="img news">
+                                    <div>
+                                        <h2 class="item__title">New Gallery Set</h2>
+                                        <p class="item__sub-title">09.12.2014</p>
+                                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante venenatis eget. <span class="text_yellow"><a href="#">read more</a></span></p>
+                                    </div>
+                                </div>
+                                <div class="bottom__item">
+                                    <img class="item__img" src="./IMG/main__img/thumb_309.jpg" alt="img news">
+                                    <div>
+                                        <h2 class="item__title">New Gallery Set</h2>
+                                        <p class="item__sub-title">09.12.2014</p>
+                                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante venenatis eget. <span class="text_yellow"><a href="#">read more</a></span></p>
+                                    </div>
+                                </div>
+                                <div class="bottom__item">
+                                    <img class="item__img" src="./IMG/main__img/thumb_310.jpg" alt="img news">
+                                    <div>
+                                        <h2 class="item__title">New Gallery Set</h2>
+                                        <p class="item__sub-title">09.12.2014</p>
+                                        <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante venenatis eget. <span class="text_yellow"><a href="#">read more</a></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom__item-3">
+                            <div class="bottom__content_row">
+                                <img src="./IMG/logo_black.png" alt="logo black" class="bottom__logo_black">
+                                <div>
+                                    <i class="fa fa-phone-square bottom__contacts" id="info__button" aria-hidden="true">+ 00 123 456 7890</i>
+                                    <i class="fa fa-envelope bottom__contacts bottom__contacts_mar" id="info__button" aria-hidden="true">info@square.com</i>
+                                    <div class="bottom__content-cont">
+                                        <a href="#" class="bottom__content-cont-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="#" class="bottom__content-cont-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#" class="bottom__content-cont-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        <a href="#" class="bottom__content-cont-link"><i class="fa fa-flickr" aria-hidden="true"></i></a>
+                                        <a href="#" class="bottom__content-cont-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom__content-cont_twitter">
+                                <a href="#" class="bottom__content-cont-link"><i class="fa fa-twitter bottom__contacts_big" aria-hidden="true"></i></a>
+                                <p class="bottom__text-twitter">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake <span class="text-twitter_black"><a href="#">@cheesecake</a></span> tootsie roll.</p>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="main__container">
+                <section class="footer__partners">
+                    <img src="./IMG/footer__img/phaseone_logo.png" alt="phaseone logo" class="footer__item">
+                    <img src="./IMG/footer__img/manfrotto_logo.png" alt="manfrotto logo" class="footer__item">
+                    <img src="./IMG/footer__img/hasselblad_logo.png" alt="hasselblad logo" class="footer__item">
+                    <img src="./IMG/footer__img/broncolor_logo.png" alt="broncolor logo" class="footer__item">
+                </section>
+                <section class="footer__created">
+                    <p class="footer__created-text">
+                        Created by 2ndself.com, with <i class="fa fa-heart" aria-hidden="true"></i><br>
+                        exclusive for theuncreativelab.com
+                    </p>
+                    <p class="footer__created-text">© 2014 Square. All Rights Reserved.</p>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
